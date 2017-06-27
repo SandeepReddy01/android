@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.wishwell.microbankingonsmartphone"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.wishwell.microbankingonsmartphone.Splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main" >
+        </activity>
+        <activity android:name=".AdminLogin" >
+        </activity>
+        <activity android:name=".UserHome" >
+        </activity>
+        <activity android:name=".UserLogin" >
+        </activity>
+        <activity android:name=".UserRegistration" >
+        </activity>
+        <activity android:name=".RequestForAccount" >
+        </activity>
+        <activity android:name=".Apply_For_Loan" >
+        </activity>
+        <activity android:name=".MiniStatement" >
+        </activity>
+        <activity android:name=".MoneyTransfer" >
+        </activity>
+        <activity android:name=".AdminHome" >
+        </activity>
+        <activity android:name=".ViewAccountRequestes" >
+        </activity>
+        <activity android:name=".CreateAccount" >
+        </activity>
+        <activity android:name=".ViewLoanRequestes" >
+        </activity>
+        <activity android:name=".Account_Created" >
+        </activity>
+        <activity android:name=".AmountDeposite" >
+        </activity>
+        <activity android:name=".CreateLoan" >
+        </activity>
+        <activity android:name=".ApproveLoan" >
+        </activity>
+        <activity android:name=".ShowAllUsers" >
+        </activity>
+        <activity android:name=".ListAdapter" >
+        </activity>
+        <activity android:name=".MiniStatementView" >
+        </activity>
+        <activity android:name=".AdapterofMinistatement"></activity>
+        
+    </application>
+
+</manifest>
